@@ -42,7 +42,7 @@ version atau -v
 Menampilkan versi CLI yang sedang digunakan.
 
 ```bash
-aidomx version
+$ aidomx version
 ```
 
 help atau -h
@@ -50,7 +50,7 @@ help atau -h
 Menampilkan bantuan CLI.
 
 ```bash
-aidomx help
+$ aidomx help
 ```
 
 Tujuan
