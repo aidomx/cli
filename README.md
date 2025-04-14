@@ -1,6 +1,4 @@
-Tentu! Ini contoh README.md untuk @aidomx/cli dengan gaya yang bersih, informatif, dan cocok untuk proyek open-source yang menyasar pengguna awal:
-
-# @aidomx/cli
+# Aidomx CLI
 
 **AIDOMX CLI** adalah alat baris perintah (Command Line Interface) ringan untuk membantu mengelola proyek berbasis AIDOMX dengan cepat dan fleksibel. Dirancang untuk pemula dan pembelajar web, CLI ini mendukung pengembangan berbasis PHP dan Node.js.
 
