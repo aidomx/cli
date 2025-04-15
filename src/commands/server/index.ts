@@ -1,4 +1,4 @@
-import { startPHP } from './php'
+import { startPHP } from './phpServer'
 
 export const choiceServer = (name: string) => {
   try {
@@ -14,3 +14,5 @@ export const choiceServer = (name: string) => {
     return
   }
 }
+
+export { devServer } from './devServer'

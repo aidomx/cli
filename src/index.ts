@@ -1,6 +1,5 @@
 import pkg from '../package.json'
-import { Initialize } from './commands/init'
-import { choiceServer } from './commands/server'
+import { choiceServer, devServer, Initialize, Usage } from './commands'
 
 const args = process.argv.slice(2)
 const command = args[0]
@@ -11,6 +10,10 @@ switch (command) {
     Initialize()
     break
 
+  case 'dev':
+    devServer()
+    break
+
   case 'start':
     choiceServer(args[1])
     break
@@ -18,17 +21,7 @@ switch (command) {
   case 'help':
   case '-h':
   default:
-    console.log(`  
-Aidomx CLI 
-  
-Usage: 
-  
-Commands:  
-aidomx  init     Inisialisasi proyek dengan konfigurasi AIDOMX
-aidomx  start    Menjalankan server dengan php atau node
-aidomx  version  Menampilkan versi CLI  
-aidomx  help     Menampilkan bantuan ini  
-`)
+    console.log(Usage)
     break
 
   case 'version':
