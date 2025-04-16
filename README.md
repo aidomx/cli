@@ -18,13 +18,22 @@ npm install -g @aidomx/cli
 
 ## Daftar Perintah CLI
 
-| Name    | Status       | Command                    |
-| ------- | ------------ | -------------------------- | ------ |
-| init    | stable       | `aidomx init`              |
-| dev     | stable       | `aidomx dev`               |
-| start   | experimental | `aidomx start [php         | node]` |
-| version | stable       | `aidomx version` atau `-v` |
-| help    | stable       | `aidomx help` atau `-h`    |
+Berikut adalah daftar perintah yang didukung oleh `@aidomx/cli`:
+
+- `aidomx init` — **Stable**  
+  Inisialisasi proyek AIDOMX di direktori saat ini.
+
+- `aidomx dev` — **Stable**  
+  Menjalankan server pengembangan (otomatis sesuai konfigurasi).
+
+- `aidomx start [php|node]` — **Experimental**  
+  Menjalankan server dengan stack tertentu.
+
+- `aidomx version` atau `-v` — **Stable**  
+  Menampilkan versi CLI.
+
+- `aidomx help` atau `-h` — **Stable**  
+  Menampilkan panduan penggunaan.
 
 ---
 
