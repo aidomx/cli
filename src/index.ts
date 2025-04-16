@@ -1,5 +1,5 @@
+import { choiceServer, devServer, Initialize, Usage } from 'aidomx'
 import pkg from '../package.json'
-import { choiceServer, devServer, Initialize, Usage } from './commands'
 
 const args = process.argv.slice(2)
 const command = args[0]
@@ -7,6 +7,7 @@ const CLI_VERSION = pkg.version
 
 switch (command) {
   case 'init':
+  case 'create':
     Initialize()
     break
 
