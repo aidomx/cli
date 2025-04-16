@@ -2,7 +2,7 @@
 
 ![npm version](https://img.shields.io/npm/v/@aidomx/cli?label=%40aidomx%2Fcli)
 ![license](https://img.shields.io/npm/l/@aidomx/cli)
-![node](https://img.shields.io/node/v/@aidomx/cli)
+![node](https://img.shields.io/node/v/@aidomx/cli?label=node)
 
 **AIDOMX CLI** adalah alat baris perintah (Command Line Interface) ringan untuk membantu mengelola proyek berbasis AIDOMX dengan cepat dan fleksibel. Dirancang untuk pemula dan pembelajar web, CLI ini mendukung pengembangan berbasis PHP dan Node.js.
 
