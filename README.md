@@ -1,5 +1,9 @@
 # Aidomx CLI
 
+![npm version](https://img.shields.io/npm/v/@aidomx/cli?label=%40aidomx%2Fcli)
+![license](https://img.shields.io/npm/l/@aidomx/cli)
+![node](https://img.shields.io/node/v/@aidomx/cli)
+
 **AIDOMX CLI** adalah alat baris perintah (Command Line Interface) ringan untuk membantu mengelola proyek berbasis AIDOMX dengan cepat dan fleksibel. Dirancang untuk pemula dan pembelajar web, CLI ini mendukung pengembangan berbasis PHP dan Node.js.
 
 ---
@@ -10,55 +14,26 @@
 npm install -g @aidomx/cli
 ```
 
-Perintah Dasar
+---
 
-aidomx [command]
+## Daftar Perintah CLI
 
-init
-Inisialisasi proyek AIDOMX di direktori saat ini. Akan membuat file aidomx.config.json jika belum ada.
+| Name    | Status       | Command                    |
+| ------- | ------------ | -------------------------- | ------ |
+| init    | stable       | `aidomx init`              |
+| dev     | stable       | `aidomx dev`               |
+| start   | experimental | `aidomx start [php         | node]` |
+| version | stable       | `aidomx version` atau `-v` |
+| help    | stable       | `aidomx help` atau `-h`    |
 
-```bash
-$ aidomx init
-```
+---
 
-start <stack>
-Menjalankan server sesuai stack yang dipilih (php atau node)
-
-```bash
-$ aidomx start php
-$ aidomx start node
-```
-
-add <stack>
-Menambahkan dukungan stack ke proyek AIDOMX (rencana pengembangan).
-
-```bash
-$ aidomx add php
-$ aidomx add node
-```
-
-version atau -v
-
-Menampilkan versi CLI yang sedang digunakan.
-
-```bash
-$ aidomx version
-```
-
-help atau -h
-
-Menampilkan bantuan CLI.
-
-```bash
-$ aidomx help
-```
-
-Tujuan
+## Tujuan
 
 CLI ini bertujuan untuk menyederhanakan proses setup server web lokal untuk kebutuhan edukasi, prototipe, atau pembelajaran — tanpa kerumitan konfigurasi server seperti Apache, Nginx, atau Lighttpd.
 
 ---
 
-Lisensi
+## Lisensi
 
 MIT License — Silakan digunakan dan dikembangkan sesuai kebutuhan Anda.
