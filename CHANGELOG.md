@@ -13,3 +13,4 @@ Semua perubahan besar pada proyek ini akan didokumentasikan di sini.
 ### Added
 
 - Mengatasi daftar **commands** yang error di **README.md**
+- Menghapus devDependencies yang tidak digunakan.

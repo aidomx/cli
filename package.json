@@ -9,6 +9,7 @@
   "files": [
     "dist",
     "README.md",
+    "CHANGELOG.md",
     "LICENSE"
   ],
   "homepage": "https://github.com/aidomx/cli#readme",
@@ -27,16 +28,13 @@
     "build": "tsup",
     "test": "jest"
   },
+  "types": "./dist/index.d.ts",
   "dependencies": {
-    "aidomx": "^0.0.2",
-    "@aidomx/server": "^0.0.1"
+    "@aidomx/server": "^0.0.1",
+    "aidomx": "^0.0.2"
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
-    "@types/prompts": "^2.4.9",
-    "boxen": "^8.0.1",
-    "chalk": "^5.4.1",
-    "prompts": "^2.4.2",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3"
   }
